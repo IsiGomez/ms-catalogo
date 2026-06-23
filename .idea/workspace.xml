@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a783ae21-fa4f-44b4-8ea3-ad69bd15df9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/catalogo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/config/SecurityConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="a783ae21-fa4f-44b4-8ea3-ad69bd15df9d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CategoryImplTest.executor": "Run",
+    "JUnit.ProductImplTest.executor": "Run",
     "Maven.catalogo [org.apache.maven.plugins:maven-clean-plugin:3.5.0:clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
