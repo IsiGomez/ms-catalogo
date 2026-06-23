@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a783ae21-fa4f-44b4-8ea3-ad69bd15df9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/config/OpenApiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/src/main/java/cl/duoc/catalogo/controller/ProductController.java" afterDir="false" />
-    </list>
+    <list default="true" id="a783ae21-fa4f-44b4-8ea3-ad69bd15df9d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +57,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CategoryImplTest.executor": "Run",
+    "JUnit.ProductImplTest.executor": "Run",
     "Maven.catalogo [org.apache.maven.plugins:maven-clean-plugin:3.5.0:clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -73,7 +69,7 @@
     "Spring Boot.CatalogoApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "hateoas-open__api",
+    "git-widget-placeholder": "test",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
