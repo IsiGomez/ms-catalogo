@@ -1,5 +1,6 @@
 package cl.duoc.catalogo.config;
 
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -42,6 +43,14 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.DELETE, "/api/v1/**").hasRole("FUNCIONARIO")
 
                         .anyRequest().authenticated()
+                )
+
+                .exceptionHandling(exception -> exception
+                        .authenticationEntryPoint((request, response, authException) -> {
+                            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED); // Código 401
+                            response.setContentType("application/json");
+                            response.getWriter().write("{\"error\": \"No autorizado\", \"message\": \"Falta el token o es invalido\"}");
+                        })
                 )
 
                 .formLogin(AbstractHttpConfigurer::disable)
