@@ -51,6 +51,14 @@ public class SecurityConfig {
                             response.setContentType("application/json");
                             response.getWriter().write("{\"error\": \"No autorizado\", \"message\": \"Falta el token o es invalido\"}");
                         })
+
+                        .accessDeniedHandler((request, response, accessDeniedException) -> {
+                            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+                            response.setContentType("application/json");
+                            response.getWriter().write(
+                                    "{\"error\": \"Acceso denegado\", \"message\": \"No tienes permisos para realizar esta acción\"}"
+                            );
+                        })
                 )
 
                 .formLogin(AbstractHttpConfigurer::disable)
